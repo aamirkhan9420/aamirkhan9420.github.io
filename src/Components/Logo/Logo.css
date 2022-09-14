@@ -1,0 +1,29 @@
+/* .logo-container{
+    height: 100%;
+    width: 50%;
+    border: 1px solid gray;
+   
+}
+.logo-container img{
+ width: 100%;
+ 
+} */
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 0px 0px var(--white) ;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0 0px 0px 100px;
+}
+.logo-img{
+height:92% ;
+width: 92%;
+background-image: url("https://i.pinimg.com/originals/0f/8b/28/0f8b2870896edcde8f6149fe2733faaf.jpg");
+background-size: cover;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: top;
+}
