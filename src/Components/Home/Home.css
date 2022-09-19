@@ -1,8 +1,17 @@
 .home-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 670px;
-    background-image: url("../../assets/Home/bg.jpg");
+    /* justify-content: space-between; */
 
+    min-height: 670px;
+    /* background-image: url("../../assets/Home/bg.jpg"); */
+      /* background-color: #1f2235; */
+      background-color:  #0D1117;
+ 
+}
+.scrolltop-icon{
+   
+    border-radius: 20px !important;
+    background-color: darkorange !important;
+    
 }

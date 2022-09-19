@@ -5,6 +5,7 @@
     text-align: center;
     height: 10%;
     min-height: fit-content;
+    margin-top: 120px;
 }
 
 .profile-parent{
@@ -54,11 +55,11 @@ color: #111;
 .profile-picture-backround{
 height:92% ;
 width: 92%;
-background-image: url("../../../assets/Home/profileimg.jpg");
+background-image: url("../../../assets/Home/profile.png");
 background-size: cover;
 border-radius: 50%;
 background-repeat: no-repeat;
-background-position: top;
+background-position: bottom;
 }
 .profile-picture-backround:hover{
     transform: scale(1.07);

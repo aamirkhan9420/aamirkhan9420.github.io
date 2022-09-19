@@ -1,0 +1,563 @@
+*{
+  font-family:"Poppins SemiBold" ;
+
+}
+.tools_skills_container{
+    height:1000px ;
+    width: 100%;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #618985;
+
+padding: 20px;
+}
+.skill-parent-container{
+
+  width: 90%;
+  /* height: 0%; */
+  margin-top: -100px;
+}
+
+  h1{
+    text-align: center;
+   
+    color: white;
+  }
+  .skills-grid-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 50px;
+  
+
+
+  }
+  .skills-grid-container>div{
+    
+   height: 85%;
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     font-size: 20px;
+     padding: 10px;
+     gap: 10px;
+  background-color: #022634;
+    color: white;
+    border-radius: 10px;
+  }
+ 
+  .skills-grid-container>div>h3{
+    font-size: 20px;
+    /* border: 1px solid blue; */
+  }
+
+  /* icons icons icons  icons icons icons icons icons icons icons icons icons icons icons icons icons icons icons*/
+  .html-icon{
+    color: #FF5823;
+    font-size: 25px;
+  }
+  .html-icon-div{
+    border: 5px solid black;
+    border-radius: 3px;
+     background-color: black;
+    
+  }
+  /* css icon   css icon  css icon  css icon */
+  .css-icon{
+    color: #04C3FF;
+  
+    font-size: 25px;
+  }
+  .css-icon-div{
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 3px;
+  }
+  /* js icon   js icon  js icon  js icon */
+
+  .js-icon{
+    color: black;
+   
+    font-size: 25px;
+  }
+  .js-icon-div{
+    border: 5px solid black;
+    background-color: rgb(252, 252, 13);
+    border-radius: 3px;
+  }
+  /* react icon   react icon  react icon  react icon */
+
+  .react-icon-div{
+     border: 5px solid black;
+     background-color: black;
+     border-radius: 3px;
+  }
+  .react-icon{
+    color:    #04C3FF;
+    font-size: 25px;
+  } 
+  
+  /* rrdom icon   rrdom icon  rrdom icon  rrdom icon */
+  
+  .rrdom-icon{
+    color: white;
+   
+    font-size: 25px;
+  }
+  .rrdom-icon-div{
+  
+    border: 5px solid black;
+    background-color: black;
+
+    border-radius: 3px;
+  } 
+
+  /* node-icon  node-icon node-icon  node-icon */
+
+  .node-icon{
+    color: green;
+   
+    font-size: 25px;
+  } 
+  .node-icon-div{
+    
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 3px;
+   
+  } 
+  /* .express-icon .express-icon .express-icon .express-icon  */
+  .express-icon{
+    color:white;
+    font-size: 25px;
+  } 
+  .express-icon-div{
+
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 3px;
+  }
+  /*  .mongo-icon  .mongo-icon  .mongo-icon .mongo-icon  .mongo-icon */
+
+  .mongo-icon{
+    color: green;
+    font-size: 25px;
+  }
+  .mongo-icon-div{
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 3px;
+ 
+  }
+
+/*   .chakra-icon  .chakra-icon  .chakra-icon  .chakra-icon  .chakra-icon */
+
+  .chakra-icon{
+    color: turquoise;
+   background-color: white;
+    font-size: 30px;
+    border-radius: 50%;
+  }
+  /* .chakra-icon-div{
+  
+  } */
+
+  /*  .redux-icon .redux-icon .redux-icon .redux-icon .redux-icon .redux-icon */
+
+  .redux-icon{
+    color: blueviolet;
+    font-size: 25px;
+  }
+  .redux-icon-div{
+  
+    border: 5px solid black;
+    background-color: black;
+  border-radius: 3px;
+  }
+.bootstrap-icon{
+    font-size: 35px;
+    color:  #0D6EFD;
+    background-color:  white;
+    border-radius: 3px;
+}
+.bootstrap-icon-div{
+   
+    /* background-color:  white; */
+  
+}
+
+@media only screen and (max-width: 1340px) {
+    /* For mobile phones: */
+    .skills-grid-container{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(11);
+        
+        gap: 10px;
+        /* border: 1px solid brown; */
+      
+    
+      }
+      .skill-parent-container{
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+      }
+  }
+
+
+  @media only screen and (max-width:1100px) {
+    /* For mobile phones: */
+    .tools_skills_container{
+        height: auto;
+        width: 60%;
+         margin: auto;
+    }
+    .skills-grid-container{
+        margin: auto;
+       width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(auto);
+        gap: 10px;
+        /* border: 1px solid brown; */
+        width: 60%;
+    
+    
+      }
+  }
+  @media only screen and (max-width:720px) {
+   
+    .skills-grid-container{
+   
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(auto);
+        height: auto;
+
+        /* border: 1px solid brown; */
+      
+    
+      }
+      .skill-parent-container{
+        width: 100%;
+        padding: 10px;
+        margin-top: 120px;
+
+      }
+  }
+  @media only screen and (max-width: 620px) { 
+    
+    .skills-grid-container{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+         height: fit-content;
+        gap: 30px;
+        /* border: 1px solid brown; */
+         width: 100%;
+    
+      }
+      .skill-parent-container{
+        width: 100%;
+        padding: 10px;
+      }
+   }
+ 
+  @media only screen and (max-width:320px) {
+    .tools_skills_container{
+      height:auto ;
+      width: 100%;
+       
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: #03191E;
+  
+  }
+    .skills-grid-container{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(auto);
+         /* width: 100%; */
+        gap: 10px;
+        /* border: 1px solid brown; */
+      
+    
+      } 
+      .skill-parent-container{
+        width: 100%;
+        padding: 10px;
+        margin-top: -0px;
+      }
+   
+   }
+
+
+
+
+  /* tools tools tools tools tools  tools tools tools tools tools  */
+  
+  
+  
+  .tools-parent-container{
+    /* border: 1px solid blue; */
+    width: 90%;
+    height: 50%;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+  }
+  .tools-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 100%;
+    gap: 20px;
+    
+  }
+  .tools-grid-container>div{
+    margin: auto;
+    /* border: 1px solid greenyellow; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #022634;
+
+  justify-content: center;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding-top: 20px;
+
+  }
+  .tools-grid-container>div>h3{
+font-size: 20px;
+  }
+/* tools ions icons tools icons icons  */
+
+
+/* vs code icon vs code icon vs code icon  */
+  .vscode-icon{
+    font-size: 60px;
+    color: rgb(83, 117, 255);
+  }
+  .vscode-icon-div{
+    border:1px solid black;
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+
+  }
+
+  /* git icon  git icon git icon */
+  .git-icon{
+    font-size: 60px;
+    color: #FF5823;
+  }
+  .git-icon-div{
+    border:1px solid black;
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+
+  }
+  /* github icon github icon github icon */
+
+  .github-icon{
+    font-size: 60px;
+    color: white;
+  }
+  .github-icon-div{
+    /* border:1px solid black; */
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+
+  }
+   /* postman icon postman icon postman icon */
+
+   .postman-icon{
+    font-size: 60px;
+    color: #FF5823;
+  }
+  .postman-icon-div{
+    /* border:1px solid black; */
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+
+  }
+   /* netlify icon netlify icon netlify icon */
+   .netlify-icon{
+    font-size: 60px;
+    color: rgb(24, 208, 208);
+  }
+  .netlify-icon-div{
+    border:1px solid black;
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+
+  }
+   /* heroku icon heroku icon heroku icon */
+   .heroku-icon{
+    font-size: 50px;
+    color: white;
+  }
+  .heroku-icon-div{
+    border:5px solid black;
+    background-color: rgb(122, 38, 201);
+    border-radius: 3px;
+    padding: 10px;
+
+  }
+
+    /* json icon json icon json icon */
+
+    .json-icon{
+        font-size: 60px;
+        color: white;
+      }
+      .json-icon-div{
+        border:1px solid black;
+        background-color: black;
+        border-radius: 3px;
+        padding: 10px;
+    
+      }
+      
+    /* npm icon npm icon npm icon */
+
+    .npm-icon{
+        font-size: 60px;
+        color: white;
+      }
+      .npm-icon-div{
+        border:1px solid black;
+        background-color: rgb(211, 24, 24);
+        border-radius: 3px;
+        padding: 10px;
+  
+      }
+
+      @media only screen and (max-width:1340px) {
+        /* For mobile phones: */
+        
+        .tools_skills_container{
+            height: auto;
+
+        }
+        .tools-parent-container>h1{
+   font-size: 40px;
+        }
+        .tools-grid-container{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: auto;
+          column-gap: 
+          10px;
+            border: 1px solid brown;
+            
+        
+          }
+          .tools-parent-container{
+            width: 100%;
+           
+          }
+      }
+      @media only screen and (max-width: 1100px) {
+      
+        .tools_skills_container{
+          width: 100%;
+        }
+        .tools-grid-container{
+        
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            /* grid-template-rows: repeat(11); */
+            
+            gap: 10px;
+            border: 1px solid brown;
+          
+          }
+          .icon{
+            font-size: 30px;
+          }
+          .icon-div{
+       
+           font-size: 25px;
+          }
+        
+      }
+      @media only screen and (max-width: 620px) {
+        /* For mobile phones: */
+       
+        .tools-grid-container{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
+            gap: 30px;
+            border: 1px solid brown;
+        
+          }
+        
+      }
+      @media only screen and (max-width: 420px) {
+        /* For mobile phones: */
+        .tools-grid-container{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            
+            gap: 30px;
+            border: 1px solid brown;
+        
+        
+          }
+        
+      }
+      @media only screen and (max-width: 280px) {
+        /* For mobile phones: */
+        .tools-grid-container{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            
+            gap: 10px;
+            border: 1px solid brown;
+        
+        
+          }
+     
+      }
+   
+      @media screen  and (min-width: 220px) and (max-width: 730px)
+      {
+        
+        .tools_skills_container{
+          /* height:1000px ; */
+          width: 100%;
+           
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          background-color: #03191E;
+      
+      }
+      .skill-parent-container{
+        margin-top: -0px;
+      }
+      }

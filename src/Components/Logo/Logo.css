@@ -14,9 +14,11 @@
     align-items: center;
     box-shadow: 0 1px 0px 0px var(--white) ;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    margin: 0 0px 0px 100px;
+    height: 92px;
+    width: 92px;
+    /* margin: 0 0px 0px 40px; */
+    
+
 }
 .logo-img{
 height:92% ;
@@ -26,4 +28,10 @@ background-size: cover;
 border-radius: 50%;
 background-repeat: no-repeat;
 background-position: top;
+animation: mymove 15s infinite;
 }
+
+  
+  @keyframes mymove {
+    50% {transform: rotate(360deg);}
+  }

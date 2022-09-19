@@ -1,23 +1,29 @@
 import React from 'react'
 import Typical from "react-typical"
+// import AboutMe from '../../AboutMe/AboutMe'
 import  "./Profile.css"
+
+import { BiArrowToBottom } from "react-icons/bi";
 export default function Profile() {
     return (
-        <div className='profile-container'>
+        <div className='profile-container' id='contactme'>
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='colz'>
                         <div className='colz-icon'>
-
-                        <a href='https://www.facebook.com/'>
+                        <a target='_blank' rel="noreferrer" href='https://www.facebook.com/profile.php?id=100027938010996'>
                             <i className='fa fa-facebook-square'></i>
                         </a>
-                        <a href='https://www.instagram.com/direct/inbox/'>
+                        <a target='_blank' rel="noreferrer" href='https://www.instagram.com/mr.erk5789/'>
                             <i className='fa fa-instagram'></i>
                         </a>
-                        <a href='https://www.instagram.com/direct/inbox/'>
+                        <a target='_blank' rel="noreferrer" href='https://twitter.com/AamirkhanZ9373'>
                             <i className='fa fa-twitter'></i>
                         </a>
+                        <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/aamir-khan-26899024b/'>
+                        <i className="fa fa-linkedin"></i> 
+                        </a>
+                    
                         </div>
 
                     </div>
@@ -38,7 +44,7 @@ export default function Profile() {
                                         1500,
                                         "Full Stack  Devloper",
                                         1500,
-                                        "Best Algorithm ",
+                                        "Best In Algorithms ",
                                         1500,
                                         "MERN Web Devloper",
                                         1500,
@@ -50,13 +56,10 @@ export default function Profile() {
                         </span>
                     </div>
                     <div className='profile-options'>
-                        <button className='btn primary-btn'>
-                            {" "}
-                            Hire Me{" "}
-                        </button>
+                      
                         <a href="aamirkhan.pdf" download={"Aamir aamirkhan.pdf"}>
                             <button className='btn highlighted-btn'>
-                                Download Resume
+                                Resume <BiArrowToBottom fontSize={"20px"}/>
                             </button>
                         </a>
                     </div>
@@ -65,8 +68,13 @@ export default function Profile() {
         <div className='profile-picture-backround'>
 
         </div>
+      
                 </div>
+                
             </div>
+            
+      
+    
         </div>
     )
 }
