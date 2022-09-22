@@ -72,7 +72,7 @@ export default function Projects() {
             <a data-aos="fade" href="https://github.com/soumyanil22/LisciousProject" target='_blank' rel="noreferrer">
               <button className='btn primary-btn'>GitHub</button>
               </a>
-          <a  data-aos="fade" href="https://dermstore-web18.netlify.app/" target='_blank' rel="noreferrer">
+          <a  data-aos="fade" href="https://glittery-creponne-e1efbb.netlify.app/" target='_blank' rel="noreferrer">
               <button className='btn highlighted-btn'>SEE</button>
           </a>
        
