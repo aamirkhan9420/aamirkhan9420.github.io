@@ -31,6 +31,9 @@ export default function ContactMe() {
             <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/aamir-khan-26899024b/'>
               <i className="fa fa-linkedin"></i>
             </a>
+            <a target='_blank' rel="noreferrer" href='https://github.com/aamirkhan9420'>
+              <i className="fa fa-github"></i>
+            </a>
 
           </div>
         </div>

@@ -11,6 +11,8 @@ import Profile from './Profile/Profile'
 import "../AboutMe/AboutMe.css"
 import "../Projects/Projects.css"
 import "../ToolsAndSkills/ToolsAndSkills.css"
+import Calendar from '../GithubCalendar/Calendar'
+
 export default function Home() {
   return (
 <div>
@@ -28,6 +30,9 @@ export default function Home() {
 
  <Projects />
 </div>
+<div className='calendar-container1'>
+  <Calendar />
+</div>
 <div className='toolsandskill-container'>
   <ToolsAndSkills />
 </div>
@@ -35,6 +40,9 @@ export default function Home() {
 <div className='contactme-container'>
   <ContactMe />
 </div>
+
+
+
   </div>
 
 

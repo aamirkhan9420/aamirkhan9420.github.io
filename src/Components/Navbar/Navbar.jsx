@@ -13,7 +13,7 @@ import { HashLink as NavLink } from 'react-router-hash-link'
 
 export default function Navbar() {
     let [show, setShow] = useState(false)
-    let links = [{ path: "#aboutme", title: "AboutMe" }, { path: "#project", title: "Projects" }, { path: "#toolsandskill", title: "Tools & Skills" }, { path: "#Contact", title: "Contact Me" }]
+    let links = [{ path: "#aboutme", title: "AboutMe" }, { path: "#project", title: "Projects" },{ path: "#github-calendar", title: "GitHub Calendar" }, { path: "#toolsandskill", title: "Tools & Skills" }, { path: "#Contact", title: "Contact Me" }, ]
 
 
     return (
