@@ -15,7 +15,7 @@ export default function ContactMe() {
       <h1 data-aos="flip-right">Contact Me</h1>
       <div className='contactme-parent' >
         <div className='socialmedia-div'>
-          <h3>Get In TOuch</h3>
+          <h3 className='getintouch'>Get In TOuch</h3>
 
           <div className='media-icons' >
 
@@ -36,6 +36,7 @@ export default function ContactMe() {
             </a>
 
           </div>
+        <h4 className='emialaddress'>E-Mail  :<span>aamirkhan.z9373@gmail.com</span> </h4>
         </div>
         <div className='emailbox-image-div'>
           <div className='image-div'>

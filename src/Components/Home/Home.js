@@ -12,6 +12,7 @@ import "../AboutMe/AboutMe.css"
 import "../Projects/Projects.css"
 import "../ToolsAndSkills/ToolsAndSkills.css"
 import Calendar from '../GithubCalendar/Calendar'
+import Statistic from '../Statistic/Statistic'
 
 export default function Home() {
   return (
@@ -32,6 +33,9 @@ export default function Home() {
 </div>
 <div className='calendar-container1'>
   <Calendar />
+</div>
+<div className='statistic-container1'>
+  <Statistic />
 </div>
 <div className='toolsandskill-container'>
   <ToolsAndSkills />
