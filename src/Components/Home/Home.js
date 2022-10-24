@@ -16,10 +16,11 @@ import Statistic from '../Statistic/Statistic'
 
 export default function Home() {
   return (
-<div>
-  <ScrollToTop smooth className='scrolltop-icon'/>
-    <div className='home-container'>
+<div id="home">
+  <ScrollToTop smooth className='scrolltop-icon'/> 
    <Navbar />
+    <div className='home-container'>
+ 
   <Profile />
   <Footer />
 =

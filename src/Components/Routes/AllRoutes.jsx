@@ -11,9 +11,6 @@ let {AboutMeRef,ContactRef,toolRef,projectsRef}=props
 return(
     <div>
         <Routes>
-        
-        
-
             <Route path='/aboutme' element={<AboutMe AboutMeRef={AboutMeRef}/>}/>
             <Route path='/contactme'  element={ <ContactMe ContactRef={ContactRef}/>} />
             <Route  path='/toolsandskill'element={ <ToolsAndSkills toolRef={toolRef}/>}/>

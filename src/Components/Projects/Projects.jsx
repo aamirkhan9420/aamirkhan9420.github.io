@@ -15,7 +15,7 @@ export default function Projects() {
     
       <div className="projects-parent-div1">
   
-        <div data-aos="fade-right" className='projects-parent-div1-div1'>  
+        <div data-aos="fade" className='projects-parent-div1-div1'>  
         <img src="cricket.png" alt="" />
         <div className='projects-detail-parent-div1-div1'>
           <a data-aos="fade" href="https://github.com/Nnishks/smooth-book-4341/tree/main/pagelink" target='_blank' rel="noreferrer">
@@ -29,7 +29,7 @@ export default function Projects() {
         
         </div>
         </div>
-        <div data-aos="fade-left" className='project-name-details'>
+        <div data-aos="fade" className='project-name-details'>
          <h1>Cricket.Com</h1> 
           <p>Cricket.com provides live cricket scores updates, match schedules & results, latest news & international, domestic & T20 series </p>
            <p className='p2'>A collabrative project, built in 6 days by a team of 5 members.</p>
@@ -42,7 +42,7 @@ export default function Projects() {
       </div>
      
       <div className="projects-parent-div2">
-      <div data-aos="fade-right" className='project-name-details'>
+      <div data-aos="fade" className='project-name-details'>
          <h1>DermStore.Com</h1> 
           <p>Cricket.com provides live cricket scores updates, match schedules & results, latest news & international, domestic & T20 series </p>
            <p className='p2'>A collabrative project, built in 6 days by a team of 5 members.</p>
@@ -50,7 +50,7 @@ export default function Projects() {
           <h3> <span>Tech Stack :</span> HTML | CSS3 | Javascript</h3>
            
         </div>
-        <div data-aos="fade-left" className='projects-parent-div2-div1'>
+        <div data-aos="fade" className='projects-parent-div2-div1'>
           <img src="dermstore.png" alt="" />
           <div className='projects-detail-parent-div2-div1'>
             <a data-aos="fade" href="https://github.com/spidey52/dermstore-clone" target='_blank' rel="noreferrer">
@@ -66,7 +66,7 @@ export default function Projects() {
         
       </div>
       <div className="projects-parent-div3">
-        <div data-aos="fade-right"  className='projects-parent-div3-div1'>
+        <div data-aos="fade"  className='projects-parent-div3-div1'>
         <img src="licious.png" alt="" />
           <div className='projects-detail-parent-div2-div1'>
             <a data-aos="fade" href="https://github.com/soumyanil22/LisciousProject" target='_blank' rel="noreferrer">
@@ -78,7 +78,7 @@ export default function Projects() {
        
         </div>
         </div>
-        <div data-aos="fade-left" className='project-name-details'>
+        <div data-aos="fade" className='project-name-details'>
          <h1>DermStore.Com</h1> 
           <p className='p2'>Cricket.com provides live cricket scores updates, match schedules & results, latest news & international, domestic & T20 series </p>
            <p className='p3'>A collabrative project, built in 6 days by a team of 5 members.</p>

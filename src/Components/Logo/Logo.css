@@ -1,21 +1,12 @@
-/* .logo-container{
-    height: 100%;
-    width: 50%;
-    border: 1px solid gray;
-   
-}
-.logo-container img{
- width: 100%;
- 
-} */
+
 .logo-container{
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 1px 0px 0px var(--white) ;
     border-radius: 50%;
-    height: 92px;
-    width: 92px;
+    height: 90px;
+    width: 90px;
     /* margin: 0 0px 0px 40px; */
     
 
@@ -35,3 +26,27 @@ animation: mymove 15s infinite;
   @keyframes mymove {
     50% {transform: rotate(360deg);}
   }
+  @media screen and (min-width:912px) and (max-width:1300px){
+    .logo-container{
+      
+  width: 85px;
+  height: 85px;
+  margin-bottom: 8px;
+    }
+}
+@media screen and (min-width:250px) and (max-width:700px){
+  .logo-container{
+    
+width: 55px;
+height: 55px;
+margin-bottom: 8px;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:2000px){
+  .logo-container{
+    
+width: 60px;
+height: 60px;
+margin-bottom: 8px;
+  }
+}

@@ -8,20 +8,20 @@ export default function AboutMe() {
     Aos.init({duration:2000})
   },[])
   return (
-    <div  id="aboutme" className='aboutme-container'>
+    <div   className='aboutme-container' id="aboutme">
      
         
-        <h1 data-aos="flip-right">About Me</h1>
+        <h1 data-aos="flip-right" >About Me</h1>
        
      
-        <div className='aboutme-details' data-aos="flip-right">
-     <img src="profile.png" alt="" />
+        <div className='aboutme-details' data-aos="flip-right" >
+     {/* <img src="profile.png" alt="" /> */}
      <ul>
          <p>Aspiring Full-Stack Developer is adept in Masai School.
            skilled in database integration, 
            I have completed mechanical engineering from North Maharashtra University 
            and have 6 months of learning experience in web development.
-           I am seeking Full-Stack Developer positions in your company.
+           I am seeking Full-Stack Developer positions in an organisation.
             </p>
             <li>
              Full Stack web developer

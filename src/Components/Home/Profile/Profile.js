@@ -42,7 +42,7 @@ export default function Profile() {
                                     steps={[
                                         "Enthusiastic Devloper",
                                         1500,
-                                        "Full Stack  Devloper",
+                                        "Full Stack Devloper",
                                         1500,
                                         "Best In Algorithms ",
                                         1500,
@@ -50,7 +50,7 @@ export default function Profile() {
                                         1500,
                                     ]} />
                             </h1>
-                            <span className='profile-role-tagline'>
+                            <span className='profile-role-tagline' >
                                 Expert in building the website with front and backend operation.
                             </span>
                         </span>

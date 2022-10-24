@@ -15,6 +15,11 @@
     gap: 100px;
 
 }
+.statistic-container h1{
+    margin-top: 120px;
+    margin-bottom: 50px;
+
+}
 .statistic-parent{
     /* border:  1px solid blue; */
     width: 90%;
@@ -22,6 +27,7 @@
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap:4%;
+    margin-top: -110px;
 
 }
 .statistic-parent>div{

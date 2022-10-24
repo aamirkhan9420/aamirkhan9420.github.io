@@ -4,11 +4,13 @@
     align-items: center;
     width: 100%;
     height:14vh;
-    /* border: 1px solid red;  */
-    background-color: rgba(0, 0, 0, 0.426);
+     position: sticky;
+     top: 0px;
+    border-bottom: 1px solid rgb(75, 65, 65); 
+    /* background-color: rgba(0, 0, 0, 0.426); */
     /* background: transparent; */
-    
-   
+    background-color: #022634;
+   z-index: 700;
     
 }
 .navbar-parent{
@@ -19,101 +21,85 @@
      height: 100%;
     /* border: 1px solid green;  */
    padding: 20px;
+
  
 }
 .navbar-link{
      display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 50%;
     height: 100%;
     /* border: 1px solid yellow;  */
    
-  
 }
 .hamberger-menu {
     display: none;
     
    
 }
-
-.default{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-.active{
-  color: red;
-  text-decoration: none;
-  font-size: 30px;
+h3{
+    border-bottom: 2px solid gray;
+    font-size: 25px;
 }
 
-@media screen and (max-width:1340px) {
-    .hamberger-menu{
-        display: block;
-        font-size: 5.5rem;
-    }
+#dropdown-item-button{
+  width: fit-content;
+}
+
+ @media screen and (min-width:912px) and (max-width:1280px){
+    .navbar-container{
+        height: 12vh;
+       }
     .navbar-link {
-        display: none;
+      
+    
+       width: 80%;
+     
     }
-   .hide-option{
-     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(1);
-     align-items: center;
+   
   
-     gap: 10px;
+   
   
-     /* border: 1px solid red; */
-     background-color: rgb(16, 28, 29);
-     color: white;
-      width: 100%;
-      height: 20%;
-      position: absolute;
-      top: 96px;
-      right: 35px;
-      left: 0px;
-      z-index: 1;
-      font-size: 16px;
-      padding: 20px;
+}
+@media screen and (min-width:1280px) and (max-width:1300px){
+   
+    .navbar-link {
+      
+    
+       width: 80%;
+       font-size: 20px;
     }
-    /* .profile-details-name{
+ 
+   
+
+}
+@media screen and (min-width:280px) and (max-width:912px){
+   
+    #dropdown-item-button{
+        padding: 5px;
         font-size: 20px;
+      margin-top: 3px;
     }
-    .profile-details-role .primary-text{
-        font-size: 12px;
-    }
-    .profile-options .btn{
-        width: 120px;
-        padding: 11px  0;
-        z-index: 700;
-    } */
+    #dropdown{
+        background-color:#0D1117;
+      
+         display: flex;
+         flex-direction: column;
+      
+        
+      
+     } 
+     
+   
+
 }
-@media screen and (max-width:280px)and (min-width:880px){
+@media screen and (min-width:250px) and (max-width:450px){
+   
+    
+   h3{
+    font-size: 16px;
+   }
+
+}
   
-    .hide-option{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(2);
-         align-items: center;
-      font-size: 14px;
-         gap: 10px;
-    }
-}
-@media screen and (max-width:580px)and (min-width:280px){
-    .hamberger-menu{
-        display: block;
-        font-size: 2.5rem;
-    }
-    .navbar-link {
-        display: none;
-    }
-    .hide-option{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(2);
-         align-items: center;
-      font-size: 14px;
-         gap: 10px;
-    }
-}

@@ -28,6 +28,11 @@
 }
 .primary-text{
     color: (--white);
+    
+}
+.primary-text>h1{
+   font-size: 25px;
+    
 }
 .highlighted-text{
     color: var(--dark-orange);
