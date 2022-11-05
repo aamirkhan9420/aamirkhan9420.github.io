@@ -72,17 +72,17 @@ export default function Projects() {
             <a data-aos="fade" href="https://github.com/soumyanil22/LisciousProject" target='_blank' rel="noreferrer">
               <button className='btn primary-btn'>GitHub</button>
               </a>
-          <a  data-aos="fade" href="https://glittery-creponne-e1efbb.netlify.app/" target='_blank' rel="noreferrer">
+          <a  data-aos="fade" href="https://enchanting-croquembouche-b7b619.netlify.app/" target='_blank' rel="noreferrer">
               <button className='btn highlighted-btn'>SEE</button>
           </a>
        
         </div>
         </div>
         <div data-aos="fade" className='project-name-details'>
-         <h1>DermStore.Com</h1> 
-          <p className='p2'>Cricket.com provides live cricket scores updates, match schedules & results, latest news & international, domestic & T20 series </p>
+         <h1>Licious.Com</h1> 
+          <p className='p2'>Licious is the ultimate destination to buy premium and high-quality fresh seafood and meat online</p>
            <p className='p3'>A collabrative project, built in 6 days by a team of 5 members.</p>
-           <p><span>Area of Responsibility:</span>Criclytics & Schedule page</p>
+           <p><span>Area of Responsibility:</span>Cart section</p>
           <h3> <span>Tech Stack :</span> HTML | CSS3 | Javascript</h3>
            
         </div>

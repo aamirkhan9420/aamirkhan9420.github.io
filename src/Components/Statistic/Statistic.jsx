@@ -10,7 +10,7 @@ export default function Statistic() {
                     <h4>1200+</h4>
 
                     <h4>
-                        Hours of Full Stack Coading
+                        Hours of Full Stack Coding
                     </h4>
                 </div>
                 <div>

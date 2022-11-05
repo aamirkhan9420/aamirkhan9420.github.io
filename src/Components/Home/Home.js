@@ -23,7 +23,7 @@ export default function Home() {
  
   <Profile />
   <Footer />
-=
+
   </div>
   <div className="aboutme-container">
  <AboutMe />
