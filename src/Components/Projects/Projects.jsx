@@ -32,9 +32,9 @@ export default function Projects() {
         <div data-aos="fade" className='project-name-details'>
          <h1>Cricket.Com</h1> 
           <p>Cricket.com provides live cricket scores updates, match schedules & results, latest news & international, domestic & T20 series </p>
-           <p className='p2'>A collabrative project, built in 6 days by a team of 5 members.</p>
+           <p className='p2'>A collabrative project, built in 5 days by a team of 5 members.</p>
            <p className='p3'><span>Area of Responsibility:</span>Criclytics & Schedule page</p>
-          <h3> <span>Tech Stack :</span> HTML | CSS3 | Javascript</h3>
+          <h3> <span>Tech Stack :</span> HTML | CSS3 | JAVASCRIPT</h3>
            
         </div>
  
@@ -45,9 +45,9 @@ export default function Projects() {
       <div data-aos="fade" className='project-name-details'>
          <h1>DermStore.Com</h1> 
           <p>Cricket.com provides live cricket scores updates, match schedules & results, latest news & international, domestic & T20 series </p>
-           <p className='p2'>A collabrative project, built in 6 days by a team of 5 members.</p>
+           <p className='p2'>A collabrative project, built in 5 days by a team of 5 members.</p>
            <p className='p3'><span>Area of Responsibility:</span>Criclytics & Schedule page</p>
-          <h3> <span>Tech Stack :</span> HTML | CSS3 | Javascript</h3>
+          <h3> <span>Tech Stack :</span> HTML | CSS3 | JAVASCRIPT</h3>
            
         </div>
         <div data-aos="fade" className='projects-parent-div2-div1'>
@@ -81,13 +81,36 @@ export default function Projects() {
         <div data-aos="fade" className='project-name-details'>
          <h1>Licious.Com</h1> 
           <p className='p2'>Licious is the ultimate destination to buy premium and high-quality fresh seafood and meat online</p>
-           <p className='p3'>A collabrative project, built in 6 days by a team of 5 members.</p>
+           <p className='p3'>A collabrative project, built in 5 days by a team of 5 members.</p>
            <p><span>Area of Responsibility:</span>Cart section</p>
-          <h3> <span>Tech Stack :</span> HTML | CSS3 | Javascript</h3>
+          <h3> <span>Tech Stack :</span> HTML | CSS3 | JAVASCRIPT</h3>
            
         </div>
       </div>
-
+      <div className="projects-parent-div2">
+      <div data-aos="fade" className='project-name-details'>
+         <h1>Masai-LMS</h1> 
+          <p> Masai-LMS, on this platform students can see lectures and assignments and admin can add and remove lectures, assignmnents and students. </p>
+           <p className='p2'> project built in 5 days and this is Individual project</p>
+           <p className='p3'><span>Area of Responsibility:</span>Criclytics & Schedule page</p>
+          <h3> <span>Tech Stack :</span> HTML | CSS3 | JAVASCRIPT </h3>
+           
+        </div>
+        <div data-aos="fade" className='projects-parent-div2-div1'>
+          <img src="masai_lms.png" alt="" />
+          <div className='projects-detail-parent-div2-div1'>
+            <a data-aos="fade" href="https://github.com/aamirkhan9420/Masai-lms" target='_blank' rel="noreferrer">
+          <button className='btn primary-btn'>GitHub</button>
+          </a>
+          <a data-aos="fade" href="https://mellifluous-kheer-2660da.netlify.app/" target='_blank' rel="noreferrer">
+            <button className='btn highlighted-btn'>SEE</button>
+            </a>
+         
+         
+        </div>
+        </div>
+        
+      </div>
 
     </div>
     </div>
