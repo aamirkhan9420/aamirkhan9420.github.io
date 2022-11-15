@@ -36,7 +36,12 @@ export default function ContactMe() {
             </a>
 
           </div>
+          <div className='email_phone_div'>
+
+         
         <h4 className='emialaddress'>E-Mail  :<span>aamirkhan.z9373@gmail.com</span> </h4>
+        <h4 className='phone'>Phone No  :<span>8830216297</span> </h4>
+ </div>
         </div>
         <div className='emailbox-image-div'>
           <div className='image-div'>

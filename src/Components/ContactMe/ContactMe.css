@@ -53,6 +53,7 @@
     height: 50%;
      text-decoration: none;
   margin-left: 10px;
+  margin-top: 5px;
     
     padding: 8px;
     display: flex;
@@ -146,6 +147,15 @@ form>button{
     font-size: 30px;
     animation: blinker 1.5s linear infinite;
 }
+.getintouch{
+    font-size: 20px;
+    margin-bottom: -12px;
+}
+.email_phone_div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .emialaddress{
     font-size: 18px;
     color: red;
@@ -155,6 +165,17 @@ form>button{
     font-size: 14px;
   color: white;
 margin-left: 5px;
+
+}
+.phone{
+    font-size: 18px;
+    color: red;
+  margin-left: 15px;
+}
+.phone>span{
+    font-size: 14px;
+    color: white;
+  margin-left: 5px;
 
 }
 
@@ -209,6 +230,10 @@ margin-left: 5px;
         width: 60%;
         height: 90%;
     }
+    .getintouch{
+        font-size: 20px;
+        margin-bottom: -14px;
+    }
 
 }
 
@@ -242,6 +267,41 @@ margin-left: 5px;
         width: 90%;
         height: 90%;
     }
+    .getintouch{
+        font-size: 20px;
+        margin-bottom: -14px;
+    }
+    .email_phone_div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+     }
+ 
+ .emialaddress{
+    font-size: 20px;
+    color: red;
+
+}
+
+.emialaddress>span{
+    font-size: 16px;
+  color: white;
+
+
+}
+.phone{
+    font-size: 20px;
+    color: red;
+
+}
+
+.phone>span{
+    font-size: 16px;
+  color: white;
+
+
+}
 
 }
 
@@ -257,7 +317,10 @@ margin-left: 5px;
         height: 100%;
       
     }
-
+.getintouch{
+    font-size: 20px;
+    margin-bottom: -14px;
+}
     .emailbox-image-div {
       
         display: flex;
@@ -279,6 +342,37 @@ margin-left: 5px;
         font-size: 12px;
         
     } */
+    .email_phone_div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+     }
+ 
+ .emialaddress{
+    font-size: 20px;
+    color: red;
+
+}
+
+.emialaddress>span{
+    font-size: 16px;
+  color: white;
+
+
+}
+.phone{
+    font-size: 20px;
+    color: red;
+
+}
+
+.phone>span{
+    font-size: 16px;
+  color: white;
+
+
+}
 
 }
 @media  screen and (max-width: 340px) {
@@ -324,7 +418,37 @@ margin-left: 5px;
     .sende-your-emial-h3{
         font-size: 18px;
     }
+    .email_phone_div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+     }
+ 
+ .emialaddress{
+    font-size: 20px;
+    color: red;
 
+}
+
+.emialaddress>span{
+    font-size: 10px;
+  color: white;
+
+
+}
+.phone{
+    font-size: 20px;
+    color: red;
+
+}
+
+.phone>span{
+    font-size: 10px;
+  color: white;
+
+
+}
 }
 @media screen and (min-width: 280px) and (max-width: 390px) {
     .contactme-parent {
@@ -332,9 +456,17 @@ margin-left: 5px;
       
     }
     .getintouch{
-        font-size: 18px;
-        margin-bottom: -10px;
+        font-size: 16px;
+        margin-bottom: -12px;
      }
+     
+        .email_phone_div{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            
+         }
+     
      .emialaddress{
         font-size: 12px;
         color: red;
@@ -347,18 +479,49 @@ margin-left: 5px;
     
     
     }
+    .phone{
+        font-size: 12px;
+        color: red;
+    
+    }
+
+    .phone>span{
+        font-size: 10px;
+      color: white;
+    
+    
+    }
 }
 @media screen and (min-width: 390px) and (max-width: 420px) {
+   
     .getintouch{
-        font-size: 18px;
-        margin-bottom: -10px;
+        font-size: 15px;
+        margin-bottom: -12px;
+     }
+     .email_phone_div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
      }
      .emialaddress{
-        font-size: 16px;
+        font-size: 15px;
         color: red;
     
     }
     .emialaddress>span{
+        font-size: 12px;
+      color: white;
+    
+    
+    }
+    .phone{
+        font-size: 15px;
+        color: red;
+    
+    }
+
+    .phone>span{
         font-size: 12px;
       color: white;
     
