@@ -22,7 +22,7 @@ export default function Projects() {
               <p>ESPN cricinfo is a sports news website exclusively for the game of cricket. The site features news, articles, live coverage of cricket matches.</p>
               <p className='p2'>A collabrative project, built in 5 days by a team of 4 members.</p>
               <p className='p3'><span>Area of Responsibility: </span>Home page, Live score page News page, Single news page, Teams page</p>
-              <h3> <span>Tech Stack : </span> React.js | Redux | JavaScript | Chakra | React icons | Css3</h3>
+              <h3> <span>Tech Stack : </span> ReactJs | Redux | JavaScript | Chakra | React icons | Css3</h3>
               </div>
               <div className='btn_div'>
                 <a href="https://github.com/Vishal-508/ceaseless-zebra-5788" target="_blank" rel="noopener noreferrer">
@@ -49,7 +49,7 @@ export default function Projects() {
 </p>
               <p className='p2'>A collabrative project, built in 5 days by a team of 4 members.</p>
               <p className='p3'><span>Area of Responsibility: </span>Home page,Signup,Login</p>
-              <h3> <span>Tech Stack : </span> React.js | JavaScript | Chakra | React icons | Css3 | Express</h3>
+              <h3> <span>Tech Stack : </span> ReactJs | JavaScript | Chakra | React icons | Css3 | Express</h3>
               </div>
               <div className='btn_div'>
                 <a href="https://github.com/aamirkhan9420/-roomy-tree-8865" target="_blank" rel="noopener noreferrer">
@@ -73,16 +73,16 @@ export default function Projects() {
             <div>         
               <h1>Licious.Com</h1>
               <p>Licious is the destination to buy high-quality fresh seafood and meat online.</p>
-              <p className='p2'>A collabrative project, built in 5 days by a team of 5 members.</p>
-              <p className='p3'><span>Area of Responsibility: </span>Cart page</p>
-              <h3> <span>Tech Stack : </span> HTML | CSS3 | JAVASCRIPT  </h3>
+              <p className='p2'>Individual project.</p>
+              <p className='p3'><span>Area of Responsibility: </span>All pages</p>
+              <h3> <span>Tech Stack : </span> ReactJs | Redux | JavaScript | Chakra | React icons | Css3</h3>
               </div>
               <div className='btn_div'>
-                <a href="https://github.com/soumyanil22/LisciousProject" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/aamirkhan9420/Licious_food_Platform" target="_blank" rel="noopener noreferrer">
                   <button className='btn primary-btn'>GitHub</button>
                 </a>
 
-                <a href="https://enchanting-croquembouche-b7b619.netlify.app/" target='_blank' rel="noreferrer">
+                <a href="https://my-licious.vercel.app/" target='_blank' rel="noreferrer">
                   <button className='btn highlighted-btn'>SEE</button>
                 </a>
 
