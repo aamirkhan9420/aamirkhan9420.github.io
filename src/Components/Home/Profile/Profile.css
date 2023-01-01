@@ -42,6 +42,7 @@
     font-size: 19px;
     margin: 5px 0 0 0;
     font-family: "Poppins" Light;
+    line-height: normal;
 }
 .profile-options .highlighted-btn{
 border: 2px solid black;

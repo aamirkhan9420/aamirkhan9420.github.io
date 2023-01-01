@@ -40,7 +40,7 @@ export default function Navbar() {
                             {el.title}
                         </NavLink>
                     ))}
-                    <a href="aamir-resume.pdf" download={"Aamir-Khan-Resume"}>
+                    <a href="Aamir-Khan-Resume.pdf" download={"Aamir-Khan-Resume"}>
                         <button className='btn_nav highlighted-btn_nav'>
                             Resume <BiArrowToBottom fontSize={"20px"} />
                         </button>
@@ -59,7 +59,7 @@ export default function Navbar() {
 
                         </Dropdown.Item>
                         <div className='nav_div_resume'>
-                            <a href="aamir-resume.pdf" download={"Aamir-Khan-Resume"}>
+                            <a href="Aamir-Khan-Resume.pdf" download={"Aamir-Khan-Resume"}>
                                 <button className='btn_nav'>
                                     Resume <BiArrowToBottom fontSize={"20px"} z-index="100" />
                                 </button>

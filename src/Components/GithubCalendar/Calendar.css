@@ -25,20 +25,88 @@
     width: 80%;
     color: white;
 }
+#stats_container{
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    display:flex ;
+    flex-direction: row;
+     justify-content:space-around;
+      align-items:"center";
+       gap:20px;
+      
+}
+/*  */
+#stats_container>img{
+    margin: auto !important;
+   width: 50%;
+   
+}
+/* <div style={{}}>
+<img  id="image1" src="https://github-readme-stats.vercel.app/api?username=anand6840&show_icons=true&locale=en" />
+    <img
+      id="image1"
+      w={["70%","75%","80%","90%"]}
+      margin="auto"
+      src="https://github-readme-streak-stats.herokuapp.com/?user=anand6840&"
+    />
+</div> */
+
+
+
+
 @media screen  and (min-width: 280px) and (max-width: 1100px){
     .calendar-container>h1{
   font-size: 28px;
     }
-}
-@media screen  and (min-width: 280px) and (max-width: 301px){
-    .calendar-container{
-        height: 300px;
-    }
     .calendar-parent{
     
-        height:  50%;
+        height:  90%;
         width: 100%;
     }
    
+}
+@media screen  and (min-width: 280px) and (max-width: 301px){
+   
+    .calendar-container{
+        height: 300px;
+    }
+    
+    
   
+}
+@media screen  and (min-width: 281px) and (max-width: 767px){
+    #stats_container{
+        width: 100%;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+    #stats_container>img{
+        width: 100%;
+    }
+}
+@media screen  and (min-width: 540px) and (max-width: 820px){
+    #stats_container{
+        width: 100%;
+        
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    #stats_container>img{
+        width: 100%;
+    }
+}
+@media screen  and (min-width: 100px) and (max-width: 280px){
+    #stats_container{
+        width: 100%;
+       
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+      
+      
+    }
+    #stats_container>img{
+        width: 100%;
+       
+    }
 }

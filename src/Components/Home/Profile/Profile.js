@@ -61,7 +61,7 @@ export default function Profile() {
 
                         <a href="Aamir-Khan-Resume.pdf" download={"Aamir-Khan-Resume"}>
                             <button className='btn highlighted-btn'>
-                                Resume <BiArrowToBottom fontSize={"20px"} />
+                                Resume <BiArrowToBottom />
                             </button>
                         </a>
                     </div>

@@ -12,11 +12,14 @@ export default function Calendar() {
           <GitHubCalendar  
     style={{margin:"auto"}}
     username="aamirkhan9420"
-    year={new Date().getFullYear()}
+    year={new Date().GitHubCalendar}
    
     />  
      </div>
-   
+     <div id="stats_container">
+      <img   src="https://github-readme-stats.vercel.app/api?username=aamirkhan9420&show_icons=true&locale=en" />
+          <img id="image1" src="https://github-readme-streak-stats.herokuapp.com/?user=aamirkhan9420"/>
+      </div>
  
     </div>
   )
