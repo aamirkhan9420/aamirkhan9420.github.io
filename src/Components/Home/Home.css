@@ -15,5 +15,6 @@
    
     border-radius: 20px !important;
     background-color: darkorange !important;
+    z-index: 800;
  
 }
