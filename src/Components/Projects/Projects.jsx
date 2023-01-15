@@ -22,7 +22,7 @@ export default function Projects() {
                <p>ESPN cricinfo is a sports news website exclusively for the game of cricket. The site features news, articles, live coverage of cricket matches.</p>
                <p className='p2'>A collabrative project, built in 5 days by a team of 4 members.</p>
               <p className='p3'><span>Area of Responsibility: </span>Home page, Live score page News page, Single news page, Teams page</p>
-               <h3> <span>Tech Stack : </span> ReactJs | Redux | JavaScript | Chakra | React icons | Css3</h3>
+               <h3> <span>Tech Stack : </span> ReactJs | Redux | JavaScript | Chakra | React Icons | CSS3</h3>
             </div>
               <div className='btn_div'>
                  <a href="https://github.com/Vishal-508/ceaseless-zebra-5788" target="_blank" rel="noopener noreferrer">
@@ -47,7 +47,7 @@ export default function Projects() {
     </p>
                   <p className='p2'>A collabrative project, built in 5 days by a team of 4 members.</p>
                   <p className='p3'><span>Area of Responsibility: </span>Home page,Signup,Login</p>
-                  <h3> <span>Tech Stack : </span> ReactJs | JavaScript | Chakra | React icons | Css3 | Express</h3>
+                  <h3> <span>Tech Stack : </span> ReactJs | JavaScript | Express | Chakra | React Icons | CSS3 </h3>
             </div>
             <div className='btn_div'>
             <a href="https://github.com/aamirkhan9420/-roomy-tree-8865" target="_blank" rel="noopener noreferrer">
@@ -71,7 +71,7 @@ export default function Projects() {
                   <p>Licious is the destination to buy high-quality fresh seafood and meat online.</p>
                   <p className='p2'>Individual project.</p>
                  <p className='p3'><span>Area of Responsibility: </span>All pages</p>
-                <h3> <span>Tech Stack : </span> ReactJs | Redux | JavaScript | Chakra | React icons | Css3</h3>
+                <h3> <span>Tech Stack : </span> ReactJs | Redux | JavaScript | Chakra | React Icons | CSS3</h3>
             </div>
               <div className='btn_div'>
               <a href="https://github.com/aamirkhan9420/Licious_food_Platform" target="_blank" rel="noopener noreferrer">
@@ -96,7 +96,7 @@ export default function Projects() {
                    <p> Masai-LMS, on this platform students can see lectures and assignments and admin can add and remove lectures, assignmnents and students. </p>
                    <p className='p2'>Individual project.</p>
                    <p className='p3'><span>Area of Responsibility: </span> All pages</p>
-                   <h3> <span>Tech Stack : </span> HTML | CSS3 | JAVASCRIPT</h3>
+                   <h3> <span>Tech Stack : </span> JavaScript | HTML | CSS3 |</h3>
             </div>
               <div className='btn_div'>
               <a href="https://github.com/aamirkhan9420/Masai-lms" target="_blank" rel="noopener noreferrer">
