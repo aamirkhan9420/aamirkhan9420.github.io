@@ -78,7 +78,7 @@ export default function Projects() {
                        <button className='btn primary-btn'>GitHub</button>
                      </a>
 
-                     <a href="https://my-licious.vercel.app/" target='_blank' rel="noreferrer">
+                     <a href="https://licious-food-platform.vercel.app/" target='_blank' rel="noreferrer">
                        <button className='btn highlighted-btn'>SEE</button>
                      </a>
 
