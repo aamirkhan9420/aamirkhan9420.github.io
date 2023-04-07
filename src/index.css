@@ -135,4 +135,6 @@ body ::-webkit-scrollbar-thumb {
   transition: all 0.8s ease;
 }
 
-
+.active{
+  color:  red;
+}

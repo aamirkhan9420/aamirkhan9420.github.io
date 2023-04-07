@@ -36,7 +36,7 @@ export default function Navbar() {
                 </div>
                 {window.innerWidth > 912 && <div className='navbar-link'>
                     {links.map((el) => (
-                        <NavLink style={{ color: "white", fontsize: "25px" }} key={el.path} smooth to={el.path} >
+                        <NavLink style={{ color: "white", fontsize: "25px" }}  key={el.path} smooth to={el.path} >
                             {el.title}
                         </NavLink>
                     ))}
@@ -52,7 +52,7 @@ export default function Navbar() {
                     <DropdownButton id="dropdown-item-button" title="MENU" >
                         <Dropdown.Item id="dropdown" >
                             {links.map((el) => (
-                                <NavLink style={{ color: "white", fontsize: "25px" }} key={el.path} smooth to={el.path} >
+                                <NavLink style={{ color: "white", fontsize: "25px" }}  key={el.path} smooth to={el.path} >
                                     <h3 >{el.title}</h3>
                                 </NavLink>
                             ))}
